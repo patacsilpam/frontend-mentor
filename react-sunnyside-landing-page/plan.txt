@@ -1,0 +1,12 @@
+Font
+
+
+Pages
+1. About
+2. Services
+3. Projects
+4. Contact
+
+Component
+1. NavBar
+2. Footer
