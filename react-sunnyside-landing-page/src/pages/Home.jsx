@@ -3,7 +3,7 @@ import About from '../pages/About';
 export const Home = () => {
   return (
     <>
-      <div className="relative bg-[url('images/desktop/image-header.jpg')] bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
+      <div className="relative bg-hero-pattern bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
         <Navbar/>
         <About/>
         <div>
