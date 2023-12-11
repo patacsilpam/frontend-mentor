@@ -3,8 +3,7 @@ import About from '../pages/About';
 export const Home = () => {
   return (
     <>
-      <div className="relative bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
-        <img src="images/desktop/image-header.jpg"/>
+      <div className="relative bg-[url('images/desktop/image-header.jpg')] bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
         <Navbar/>
         <About/>
         <div>
