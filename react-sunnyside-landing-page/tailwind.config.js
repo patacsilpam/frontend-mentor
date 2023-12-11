@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         Barlow: ["Barlow", "sans-serif"],
         Fraunces: ["Fraunces","serif"]
+      },
+      backgroundImage: {
+        'hero-pattern': "url('images/desktop/image-header.jpg')",
       }
     },
   },
