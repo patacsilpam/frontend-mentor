@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <>
       <div className="relative md:bg-[url('https://static.vecteezy.com/system/resources/previews/010/520/992/original/blue-orange-background-free-vector.jpg')] bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
-        <img src="https://static.vecteezy.com/system/resources/previews/010/520/992/original/blue-orange-background-free-vector.jpg"/>
+        <img src="images/desktop/image-header.jpg"/>
         <Navbar/>
         <About/>
         <div>
