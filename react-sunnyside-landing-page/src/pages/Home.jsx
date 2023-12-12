@@ -6,6 +6,7 @@ export const Home = () => {
       <div className="relative bg-hero-pattern bg-[url('images/mobile/image-header.jpg')] bg-cover h-screen">
         <Navbar/>
         <About/>
+        {/*We are Creatives */}
         <div>
           <div>
             <h1 className='text-white font-Fraunces text-3xl md:text-7xl text-center mt-32 '>WE ARE CREATIVES</h1>
@@ -19,7 +20,60 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      {/*Second Section*/}
+      <div>
+        {/*Transform your brand */}
+        <div className='grid md:grid-cols-2'>
+          <div className='bg-white flex flex-col justify-center p-10 md:p-24 order-1 md:-order-1'>
+            <h1 className='font-Fraunces text-5xl'>Transform your brand</h1>
+            <p className='my-10'>We are a full-service creative agency specializing in helping brands grow fast. 
+              Engage your clients through compelling visuals that do most of marketing for you.
+            </p>
+            <strong><u className='decoration-4 decoration-yellow-400'>Learn More</u></strong>
+          </div> 
+          <div>
+            <img src="images/desktop/image-transform.jpg" alt="image-transform" className='w-screen' />
+          </div>      
+        </div>
+        {/*Stand out to right audience*/}
+        <div className='grid md:grid-cols-2'>
+          <div className='bg-white flex flex-col justify-center p-10 md:p-24 order-1 md:order-2'>
+            <h1 className='font-Fraunces text-5xl'>Stand out to right audience</h1>
+            <p className='my-10'>Using a collaborative formula of designers, researchers, videographers, and copywriters, 
+            we'll build and extend your brand in digital places.
+            </p>
+            <strong><u className='decoration-4 decoration-yellow-400'>Learn More</u></strong>
+          </div> 
+          <div>
+            <img src="images/desktop/image-stand-out.jpg" alt="image-transform" className='w-screen' />
+          </div>      
+        </div>
+        {/*Stand out to right audience*/}
+        <div className='grid md:grid-cols-2'>
+          <div className='relative'>
+            <img src="images/desktop/image-graphic-design.jpg" alt="image-transform" className='w-screen' />
+            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2  text-center text-emerald-900 md:my-5'>
+              <strong className='font-Fraunces md:text-3xl'>Graphic Design</strong>
+              <p className='md:my-5'>
+                Great design makes you memorable. We deliver artwork that underscores your brand message
+                and captures potential client's attention.
+              </p>
+            </div>
+          </div> 
+          <div className='relative'>
+            <img src="images/desktop/image-photography.jpg" alt="image-transform" className='w-screen' />
+            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2  text-center text-cyan-900 md:my-5'>
+              <strong className='font-Fraunces md:text-3xl'>Photography</strong>
+              <p className='md:my-5'>
+                Great design makes you memorable. We deliver artwork that underscores your brand message
+                and captures potential client's attention.
+              </p>
+            </div>
+          </div>      
+        </div>
+      </div>
     </>
   )
 }
 export default Home;
+ 
