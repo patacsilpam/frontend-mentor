@@ -31,47 +31,40 @@ export const Home = () => {
             </p>
             <strong><u className='decoration-4 decoration-yellow-400'>Learn More</u></strong>
           </div> 
-          <div>
-            <img src="images/desktop/image-transform.jpg" alt="image-transform" className='w-screen' />
-          </div>      
+          <img src="images/desktop/image-transform.jpg" alt="image-transform" className='w-screen' />
         </div>
         {/*Stand out to right audience*/}
         <div className='grid md:grid-cols-2'>
-          <div className='bg-white flex flex-col justify-center p-10 md:p-24 order-1 md:order-2'>
+          <div className='bg-white flex flex-col justify-center p-10 md:p-24 order-2 md:order-1'>
             <h1 className='font-Fraunces text-5xl'>Stand out to right audience</h1>
-            <p className='my-10'>Using a collaborative formula of designers, researchers, videographers, and copywriters, 
-            we'll build and extend your brand in digital places.
+            <p className='my-10'>
+              Using a collaborative formula of designers, reasearchers, photographers, videographers and copywriters,
+              we'll build and extend your brand in digital places.
             </p>
             <strong><u className='decoration-4 decoration-yellow-400'>Learn More</u></strong>
           </div> 
-          <div>
             <img src="images/desktop/image-stand-out.jpg" alt="image-transform" className='w-screen' />
-          </div>      
-        </div>
-        {/*Stand out to right audience*/}
-        <div className='grid md:grid-cols-2'>
-          <div className='relative'>
-            <img src="images/desktop/image-graphic-design.jpg" alt="image-transform" className='w-screen' />
-            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2  text-center text-emerald-900 md:my-5'>
-              <strong className='font-Fraunces md:text-3xl'>Graphic Design</strong>
+          </div>
+          {/*GRAPHIC DESIGN */}
+        <div className='grid md:grid-cols-2 '>
+          <div className="bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-cover relative h-screen">
+            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/8 mt-5'>
+              <h1 className='font-Fraunces text-3xl text-emerald-900'>Graphic Design</h1>
               <p className='md:my-5'>
                 Great design makes you memorable. We deliver artwork that underscores your brand message
                 and captures potential client's attention.
               </p>
             </div>
-          </div> 
-          <div className='relative'>
-            <img src="images/desktop/image-photography.jpg" alt="image-transform" className='w-screen' />
-            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2  text-center text-cyan-900 md:my-5'>
-              <strong className='font-Fraunces md:text-3xl'>Photography</strong>
-              <p className='md:my-5'>
-                Great design makes you memorable. We deliver artwork that underscores your brand message
-                and captures potential client's attention.
-              </p>
-            </div>
-          </div>      
+          </div>
+          <div className="bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')]  bg-cover ">
+            <p className='md:my-5'>
+              Great design makes you memorable. We deliver artwork that underscores your brand message
+              and captures potential client's attention.
+            </p>
+          </div>
         </div>
-      </div>
+        </div> 
+        {/* */}
     </>
   )
 }
