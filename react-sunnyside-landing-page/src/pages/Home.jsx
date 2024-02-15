@@ -47,20 +47,23 @@ export const Home = () => {
           </div>
           {/*GRAPHIC DESIGN */}
         <div className='grid md:grid-cols-2 '>
-          <div className="bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-cover relative h-screen">
+          <div className="bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-cover relative h-screen text-center">
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/8 mt-5'>
               <h1 className='font-Fraunces text-3xl text-emerald-900'>Graphic Design</h1>
-              <p className='md:my-5'>
+              <p className='md:my-5 ext-emerald-900'>
                 Great design makes you memorable. We deliver artwork that underscores your brand message
                 and captures potential client's attention.
               </p>
             </div>
           </div>
-          <div className="bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')]  bg-cover ">
-            <p className='md:my-5'>
-              Great design makes you memorable. We deliver artwork that underscores your brand message
-              and captures potential client's attention.
-            </p>
+          <div className="bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')]  bg-cover relative h-screen text-center">
+            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/8 mt-5'>
+              <h1 className='font-Fraunces text-3xl text-emerald-900'>Photography</h1>
+              <p className='md:my-5 ext-emerald-900'>
+                Increase your credebility by getting the most stunning, 
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
         </div>
         </div> 
