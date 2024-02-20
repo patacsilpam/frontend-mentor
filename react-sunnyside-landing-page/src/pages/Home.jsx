@@ -50,7 +50,7 @@ export const Home = () => {
           <div className="bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-cover relative h-screen text-center">
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/8 mt-5'>
               <h1 className='font-Fraunces text-3xl text-emerald-900'>Graphic Design</h1>
-              <p className='md:my-5 ext-emerald-900'>
+              <p className='md:my-5 text-emerald-900 font-semibold'>
                 Great design makes you memorable. We deliver artwork that underscores your brand message
                 and captures potential client's attention.
               </p>
@@ -58,14 +58,32 @@ export const Home = () => {
           </div>
           <div className="bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')]  bg-cover relative h-screen text-center">
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/8 mt-5'>
-              <h1 className='font-Fraunces text-3xl text-emerald-900'>Photography</h1>
-              <p className='md:my-5 ext-emerald-900'>
+              <h1 className='font-Fraunces text-3xl text-cyan-900'>Photography</h1>
+              <p className='md:my-5 text-cyan-900 font-semibold'>
                 Increase your credebility by getting the most stunning, 
                 high-quality photos that improve your business image.
               </p>
             </div>
           </div>
         </div>
+        {/*Client Testimonials*/}
+          <div className='h-screen'>
+            <div>
+              <strong className='font-Fraunces text-gray-600'>CLIENT TESTIMONIALS</strong>
+            </div>
+            {/*CARD */}
+            <div>
+              <figure className='flex flex-col justify-center text-center'>
+                <img src="/images/image-emily.jpg" className='w-10' alt="Emily" />
+                <figcaption className='w-96'>
+                  We put our trust in SunnySide and they delivered, 
+                  making sure our needs were met, and deadlines were always hit.
+                </figcaption>
+                <strong className='font-Fraunces'>Emily R.</strong>
+                <small>Markekting Director</small>
+              </figure>
+            </div>
+          </div>
         </div> 
         {/* */}
     </>
