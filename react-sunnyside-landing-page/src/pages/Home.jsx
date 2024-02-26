@@ -67,13 +67,14 @@ export const Home = () => {
           </div>
         </div>
         {/*Client Testimonials*/}
-          <div className='h-screen'>
+          <div className='h-screen grid place-content-center text-center'>
             <div>
               <strong className='font-Fraunces text-gray-600'>CLIENT TESTIMONIALS</strong>
             </div>
-            {/*CARD */}
+            <div className='flex flex-row p-10'>
+              {/*CARD 1*/}
             <div>
-              <figure className='flex flex-col justify-center text-center'>
+              <figure className=''>
                 <img src="/images/image-emily.jpg" className='w-10' alt="Emily" />
                 <figcaption className='w-96'>
                   We put our trust in SunnySide and they delivered, 
@@ -82,6 +83,30 @@ export const Home = () => {
                 <strong className='font-Fraunces'>Emily R.</strong>
                 <small>Markekting Director</small>
               </figure>
+            </div>
+            {/*CARD 2*/}
+            <div>
+              <figure className=''>
+                <img src="/images/image-thomas.jpg" className='w-10' alt="Emily" />
+                <figcaption className='w-96'>
+                  Sunnyside's enthusiasm coupled with their keen interest
+                  in our brand's success made it a satisfying and enjoyable experience.
+                </figcaption>
+                <strong className='font-Fraunces'>Thomas S.</strong>
+                <small>Chief Operating Officer</small>
+              </figure>
+            </div>
+            {/*CARD 3*/}
+            <div>
+              <figure className=''>
+                <img src="/images/image-jennie.jpg" className='w-10' alt="Emily" />
+                <figcaption className='w-96'>
+                  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended@
+                </figcaption>
+                <strong className='font-Fraunces'>Jennie F</strong>
+                <small>Business Officer</small>
+              </figure>
+            </div>
             </div>
           </div>
         </div> 
