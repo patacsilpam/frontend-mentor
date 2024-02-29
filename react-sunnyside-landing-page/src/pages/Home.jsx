@@ -68,8 +68,8 @@ export const Home = () => {
         </div>
         {/*Client Testimonials*/}
           <div className='h-screen grid place-content-center text-center'>
-            <div>
-              <strong className='font-Fraunces text-gray-600'>CLIENT TESTIMONIALS</strong>
+            <div className='p-4 mb-5'>
+              <strong className='font-Fraunces text-gray-600 text-3xl'>CLIENT TESTIMONIALS</strong>
             </div>
             <div className='flex flex-row p-10'>
               {/*CARD 1*/}
@@ -85,7 +85,7 @@ export const Home = () => {
               </figure>
             </div>
             {/*CARD 2*/}
-            <div>
+            <div className='px-10'>
               <figure className=''>
                 <img src="/images/image-thomas.jpg" className='w-10' alt="Emily" />
                 <figcaption className='w-96'>
